@@ -1,3 +1,5 @@
+
+
 let nums = [1, 2, 3]
 nums[0] = 10
 console.log(nums) // [10, 2, 3]
@@ -18,13 +20,13 @@ let userTwo = {
 }
 console.log(userOne == userTwo) // false
 
-let numbers = nums
+numbers = nums;
 console.log(nums == numbers)  // true
 
-let userOne = {
+userOne = {
 name:'Asabeneh',
 role:'teaching',
 country:'Finland'
 }
-let userTwo = userOne
+userTwo = userOne
 console.log(userOne == userTwo)  // true

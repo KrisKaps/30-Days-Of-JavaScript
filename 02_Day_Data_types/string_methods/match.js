@@ -1,17 +1,32 @@
-// match: it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null. Let us see how a regular expression pattern looks like. It starts with / sign and ends with / sign.
+
+
+// match: it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null.
+
+// Let us see how a regular expression pattern looks like. It starts with / sign and ends with / sign.
+
+/* syntax:
+
 let string = 'love'
 let patternOne = /love/ // with out any flag
 let patternTwo = /love/gi // g-means to search in the whole text, i - case insensitive
+
 string.match(substring)
+
+*/
+
+
 let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
-console.log(string.match('love')) //
-/*
-output
+console.log(string.match('love'))
+
+/* output
 
 ["love", index: 2, input: "I love JavaScript. If you do not love JavaScript what else can you love.", groups: undefined]
 */
+
 let pattern = /love/gi
 console.log(string.match(pattern)) // ["love", "love", "love"]
+
+
 // Let us extract numbers from text using regular expression. This is not regular expression section, no panic.
 
 let txt = 'In 2019, I run 30 Days of Python. Now, in 2020 I super exited to start this challenge'

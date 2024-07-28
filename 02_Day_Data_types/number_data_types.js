@@ -1,3 +1,5 @@
+
+
 let age = 35
 const gravity = 9.81 //we use const for non-changing values, gravitational constant in  m/s2
 let mass = 72 // mass in Kilogram
